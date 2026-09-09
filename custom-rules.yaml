@@ -1,0 +1,20 @@
+rules:
+  - id: java-sql-injection-string-concat-generic
+    languages: [java]
+    severity: ERROR
+    message: >
+      SQL Injection ranlivost - SQL query se gradi preku konkatenacija na
+      stringovi so korisnicki input, namesto koristewe na parametrizirani
+      query (PreparedStatement so '?' placeholder + setString()).
+    metadata:
+      cwe: "CWE-89: Improper Neutralization of Special Elements used in an SQL Command"
+      owasp: "A03:2021 - Injection"
+      confidence: HIGH
+      category: security
+    patterns:
+      - pattern-either:
+          - pattern: |
+              "..." + $INPUT + "..."
+          - pattern: |
+              "..." + $INPUT
+      - pattern-regex: (?i)\b(select|insert|update|delete)\b

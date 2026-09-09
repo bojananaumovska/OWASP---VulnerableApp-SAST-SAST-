@@ -1,0 +1,155 @@
+CWE,Type,File,Line,Matched_Loose,Matched_Strict
+CWE-89,SQL Injection,src/main/java/org/sasanlabs/service/vulnerability/authentication/AuthenticationVulnerability.java,40,False,False
+CWE-256,Plaintext Password Storage,src/main/java/org/sasanlabs/service/vulnerability/authentication/AuthenticationVulnerability.java,76,False,False
+CWE-256,Plaintext Password Storage,src/main/java/org/sasanlabs/service/vulnerability/authentication/AuthenticationVulnerability.java,112,False,False
+CWE-916,Weak Password Hashing,src/main/java/org/sasanlabs/service/vulnerability/authentication/AuthenticationVulnerability.java,150,False,False
+CWE-916,Weak Password Hashing,src/main/java/org/sasanlabs/service/vulnerability/authentication/AuthenticationVulnerability.java,188,False,False
+CWE-916,Weak Password Hashing,src/main/java/org/sasanlabs/service/vulnerability/authentication/AuthenticationVulnerability.java,227,False,False
+CWE-204,Username Enumeration,src/main/java/org/sasanlabs/service/vulnerability/authentication/AuthenticationVulnerability.java,265,False,False
+CWE-916,Weak Password Hashing,src/main/java/org/sasanlabs/service/vulnerability/authentication/AuthenticationVulnerability.java,302,False,False
+CWE-916,Weak Password Hashing,src/main/java/org/sasanlabs/service/vulnerability/authentication/AuthenticationVulnerability.java,364,False,False
+CWE-349,Web Cache Poisoning,src/main/java/org/sasanlabs/service/vulnerability/cachePoisoning/CachePoisoningVulnerability.java,67,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/cachePoisoning/CachePoisoningVulnerability.java,71,False,False
+CWE-349,Web Cache Poisoning,src/main/java/org/sasanlabs/service/vulnerability/cachePoisoning/CachePoisoningVulnerability.java,91,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/cachePoisoning/CachePoisoningVulnerability.java,95,False,False
+CWE-349,Web Cache Poisoning,src/main/java/org/sasanlabs/service/vulnerability/cachePoisoning/CachePoisoningVulnerability.java,115,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/cachePoisoning/CachePoisoningVulnerability.java,119,False,False
+CWE-349,Web Cache Poisoning,src/main/java/org/sasanlabs/service/vulnerability/cachePoisoning/CachePoisoningVulnerability.java,139,False,False
+CWE-1021,Clickjacking,src/main/java/org/sasanlabs/service/vulnerability/clickjacking/ClickjackingVulnerability.java,46,False,False
+CWE-1021,Clickjacking,src/main/java/org/sasanlabs/service/vulnerability/clickjacking/ClickjackingVulnerability.java,72,False,False
+CWE-1021,Clickjacking,src/main/java/org/sasanlabs/service/vulnerability/clickjacking/ClickjackingVulnerability.java,102,False,False
+CWE-1021,Clickjacking,src/main/java/org/sasanlabs/service/vulnerability/clickjacking/ClickjackingVulnerability.java,165,False,False
+CWE-1021,Clickjacking,src/main/java/org/sasanlabs/service/vulnerability/clickjacking/ClickjackingVulnerability.java,192,False,False
+CWE-77,Command Injection,src/main/java/org/sasanlabs/service/vulnerability/commandInjection/CommandInjection.java,64,False,False
+CWE-77,Command Injection,src/main/java/org/sasanlabs/service/vulnerability/commandInjection/CommandInjection.java,78,False,False
+CWE-77,Command Injection,src/main/java/org/sasanlabs/service/vulnerability/commandInjection/CommandInjection.java,101,False,False
+CWE-77,Command Injection,src/main/java/org/sasanlabs/service/vulnerability/commandInjection/CommandInjection.java,127,False,False
+CWE-77,Command Injection,src/main/java/org/sasanlabs/service/vulnerability/commandInjection/CommandInjection.java,152,False,False
+CWE-326,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,47,False,False
+CWE-326,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,89,False,False
+CWE-330,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,136,False,False
+CWE-330,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,182,False,False
+CWE-327,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,227,False,False
+CWE-327,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,273,False,False
+CWE-327,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,320,False,False
+CWE-327,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,365,False,False
+CWE-327,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,413,False,False
+CWE-330,Cryptographic Failures,src/main/java/org/sasanlabs/service/vulnerability/cryptographicFailures/CryptographicFailuresVulnerability.java,461,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,148,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,148,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,148,False,False
+CWE-434,Unrestricted File Upload,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,148,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,169,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,169,False,False
+CWE-434,Unrestricted File Upload,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,169,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,189,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,189,False,False
+CWE-434,Unrestricted File Upload,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,189,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,215,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,215,False,False
+CWE-434,Unrestricted File Upload,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,215,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,241,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,241,False,False
+CWE-434,Unrestricted File Upload,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,241,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,272,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,272,False,False
+CWE-434,Unrestricted File Upload,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,272,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,301,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,301,False,False
+CWE-434,Unrestricted File Upload,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,301,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,334,False,False
+CWE-730,Denial Of Service,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,349,False,False
+CWE-400,Uncontrolled Resource Consumption,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,349,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/fileupload/UnrestrictedFileUpload.java,356,False,False
+CWE-639,IDOR,src/main/java/org/sasanlabs/service/vulnerability/idor/IDORVulnerability.java,68,False,False
+CWE-639,IDOR,src/main/java/org/sasanlabs/service/vulnerability/idor/IDORVulnerability.java,107,False,False
+CWE-639,IDOR,src/main/java/org/sasanlabs/service/vulnerability/idor/IDORVulnerability.java,143,False,False
+CWE-639,IDOR,src/main/java/org/sasanlabs/service/vulnerability/idor/IDORVulnerability.java,192,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,95,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,126,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,178,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,229,False,False
+CWE-1188,Insecure Configuration Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,232,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,284,False,False
+CWE-347,Server Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,287,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,339,False,False
+CWE-347,Server Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,342,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,400,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,444,False,False
+CWE-347,Server Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,447,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,498,False,False
+CWE-347,Server Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,501,False,False
+CWE-522,Client Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,550,False,False
+CWE-347,Server Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,553,False,False
+CWE-113,Header Injection,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,668,False,False
+CWE-1188,Insecure Configuration Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,714,False,False
+CWE-347,Server Side Vulnerable Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,768,False,False
+CWE-1188,Insecure Configuration Jwt,src/main/java/org/sasanlabs/service/vulnerability/jwt/JWTVulnerability.java,821,False,False
+CWE-90,Ldap Injection,src/main/java/org/sasanlabs/service/vulnerability/ldapInjection/LDAPInjectionVulnerability.java,102,False,False
+CWE-90,Ldap Injection,src/main/java/org/sasanlabs/service/vulnerability/ldapInjection/LDAPInjectionVulnerability.java,131,False,False
+CWE-90,Ldap Injection,src/main/java/org/sasanlabs/service/vulnerability/ldapInjection/LDAPInjectionVulnerability.java,160,False,False
+CWE-90,Ldap Injection,src/main/java/org/sasanlabs/service/vulnerability/ldapInjection/LDAPInjectionVulnerability.java,215,False,False
+CWE-90,Ldap Injection,src/main/java/org/sasanlabs/service/vulnerability/ldapInjection/LDAPInjectionVulnerability.java,254,False,False
+CWE-601,Open Redirect,src/main/java/org/sasanlabs/service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection.java,73,False,False
+CWE-601,Open Redirect,src/main/java/org/sasanlabs/service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection.java,99,False,False
+CWE-601,Open Redirect,src/main/java/org/sasanlabs/service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection.java,133,False,False
+CWE-601,Open Redirect,src/main/java/org/sasanlabs/service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection.java,166,False,False
+CWE-601,Open Redirect,src/main/java/org/sasanlabs/service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection.java,203,False,False
+CWE-601,Open Redirect,src/main/java/org/sasanlabs/service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection.java,239,False,False
+CWE-601,Open Redirect,src/main/java/org/sasanlabs/service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection.java,269,False,False
+CWE-601,Open Redirect,src/main/java/org/sasanlabs/service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection.java,319,False,False
+CWE-601,Open Redirect,src/main/java/org/sasanlabs/service/vulnerability/openRedirect/Http3xxStatusCodeBasedInjection.java,344,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,73,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,85,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,99,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,113,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,131,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,149,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,164,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,191,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,220,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,249,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,279,False,False
+CWE-22,Path Traversal,src/main/java/org/sasanlabs/service/vulnerability/pathTraversal/PathTraversalVulnerability.java,309,False,False
+CWE-640,Predictable Password Reset Token,src/main/java/org/sasanlabs/service/vulnerability/passwordReset/PasswordResetService.java,179,False,False
+CWE-640,Password Reset Token Without Expiry,src/main/java/org/sasanlabs/service/vulnerability/passwordReset/PasswordResetService.java,240,False,False
+CWE-640,Reusable Password Reset Token,src/main/java/org/sasanlabs/service/vulnerability/passwordReset/PasswordResetService.java,244,False,False
+CWE-204,Username Enumeration,src/main/java/org/sasanlabs/service/vulnerability/passwordReset/PasswordResetService.java,236,False,False
+CWE-319,Insecure Password Reset Link,src/main/java/org/sasanlabs/service/vulnerability/passwordReset/PasswordResetService.java,229,False,False
+CWE-330,Weak Random Number Generation,src/main/java/org/sasanlabs/service/vulnerability/passwordReset/PasswordResetService.java,187,False,False
+CWE-200,Password Reset Token Exposed Via Referrer,src/main/java/org/sasanlabs/service/vulnerability/passwordReset/PasswordResetService.java,222,False,False
+CWE-640,Predictable Password Reset Token,src/main/java/org/sasanlabs/service/vulnerability/passwordReset/PasswordResetService.java,201,False,False
+CWE-307,No Login Rate Limiting,src/main/java/org/sasanlabs/service/vulnerability/passwordReset/PasswordResetService.java,252,False,False
+CWE-384,Session Fixation,src/main/java/org/sasanlabs/service/vulnerability/sessionManagement/SessionManagementService.java,87,False,False
+CWE-330,Predictable Session Id,src/main/java/org/sasanlabs/service/vulnerability/sessionManagement/SessionManagementService.java,107,False,False
+CWE-330,Obscured Predictable Session Id,src/main/java/org/sasanlabs/service/vulnerability/sessionManagement/SessionManagementService.java,130,False,False
+CWE-613,Missing Logout Invalidation,src/main/java/org/sasanlabs/service/vulnerability/sessionManagement/SessionManagementService.java,276,False,False
+CWE-307,No Login Rate Limiting,src/main/java/org/sasanlabs/service/vulnerability/sessionManagement/SessionManagementService.java,177,False,False
+CWE-89,SQL Injection,src/main/java/org/sasanlabs/service/vulnerability/sqlInjection/BlindSQLInjectionVulnerability.java,47,True,False
+CWE-89,SQL Injection,src/main/java/org/sasanlabs/service/vulnerability/sqlInjection/BlindSQLInjectionVulnerability.java,103,True,False
+CWE-89,SQL Injection,src/main/java/org/sasanlabs/service/vulnerability/sqlInjection/ErrorBasedSQLInjectionVulnerability.java,53,True,False
+CWE-89,SQL Injection,src/main/java/org/sasanlabs/service/vulnerability/sqlInjection/ErrorBasedSQLInjectionVulnerability.java,97,True,False
+CWE-89,SQL Injection,src/main/java/org/sasanlabs/service/vulnerability/sqlInjection/ErrorBasedSQLInjectionVulnerability.java,143,True,True
+CWE-89,SQL Injection,src/main/java/org/sasanlabs/service/vulnerability/sqlInjection/ErrorBasedSQLInjectionVulnerability.java,194,True,False
+CWE-89,SQL Injection,src/main/java/org/sasanlabs/service/vulnerability/sqlInjection/UnionBasedSQLInjectionVulnerability.java,58,True,False
+CWE-89,SQL Injection,src/main/java/org/sasanlabs/service/vulnerability/sqlInjection/UnionBasedSQLInjectionVulnerability.java,72,True,False
+CWE-918,SSRF,src/main/java/org/sasanlabs/service/vulnerability/ssrf/SSRFVulnerability.java,91,True,False
+CWE-918,SSRF,src/main/java/org/sasanlabs/service/vulnerability/ssrf/SSRFVulnerability.java,105,True,False
+CWE-918,SSRF,src/main/java/org/sasanlabs/service/vulnerability/ssrf/SSRFVulnerability.java,121,True,False
+CWE-918,SSRF,src/main/java/org/sasanlabs/service/vulnerability/ssrf/SSRFVulnerability.java,138,True,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/persistent/PersistentXSSInHTMLTagVulnerability.java,91,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/persistent/PersistentXSSInHTMLTagVulnerability.java,104,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/persistent/PersistentXSSInHTMLTagVulnerability.java,122,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/persistent/PersistentXSSInHTMLTagVulnerability.java,143,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/persistent/PersistentXSSInHTMLTagVulnerability.java,165,False,False
+CWE-79,Persistent XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/persistent/PersistentXSSInHTMLTagVulnerability.java,188,False,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/reflected/XSSInImgTagAttribute.java,46,True,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/reflected/XSSInImgTagAttribute.java,61,True,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/reflected/XSSInImgTagAttribute.java,77,True,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/reflected/XSSInImgTagAttribute.java,97,True,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/reflected/XSSInImgTagAttribute.java,120,True,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/reflected/XSSWithHtmlTagInjection.java,32,True,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/reflected/XSSWithHtmlTagInjection.java,50,True,False
+CWE-79,Reflected XSS,src/main/java/org/sasanlabs/service/vulnerability/xss/reflected/XSSWithHtmlTagInjection.java,73,True,False
+CWE-611,Xxe,src/main/java/org/sasanlabs/service/vulnerability/xxe/XXEVulnerability.java,64,False,False
+CWE-611,Xxe,src/main/java/org/sasanlabs/service/vulnerability/xxe/XXEVulnerability.java,137,False,False
